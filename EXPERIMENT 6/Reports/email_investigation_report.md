@@ -1,13 +1,52 @@
-## Email Trace & Authentication Report
+Delivered-To: sacchitsharma3@gmail.com
+Received: from iamlogan140@gmail.com (82.94.180.12) by mx.google.com ...
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=hacker.com; s=google;
+Authentication-Results: mx.google.com;
+       spf=pass 
+Subject: Confidential PGP Message
+From: Sender <iamlogan140@gmail.com>
 
-| Attribute | Findings |
-| :--- | :--- |
-| **Originating IP** | `82.94.180.12` |
-| **Relay Servers** | 3 Hops identified (Amsterdam -> Google MX -> Recipient) |
-| **PGP Status** | ✅ Signature Verified (ID: 0x6B47C1) |
-| **SPF/DKIM** | PASS (Indicates the email is likely not spoofed) |
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
 
-### Investigative Summary
-By analyzing the `Received` headers from bottom to top, we identified the true point of origin. While the email claimed to be from a "Trusted Partner," the PGP signature verification was required to prove the message content had not been altered by an intermediary. 
-
-**Conclusion:** The message is authentic. The sender used a valid private key associated with the public key on file, and the timestamps in the headers correlate with the system logs found in Experiment 04.
+This is a confidential message for the investigation team.
+-----BEGIN PGP SIGNATURE-----
+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
+Pb8FGTYT2JqtFcYiPOk=
+=Oclk
+-----END PGP SIGNATURE-----
